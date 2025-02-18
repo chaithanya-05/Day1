@@ -17,7 +17,7 @@ int calculateToll(char vehicleType[]) {
 // Function to track total revenue
 int trackRevenue(int numberOfVehicles) {
     int totalRevenue = 0;
-    char vehicleType[10]; // Assuming vehicle type names will not exceed 9 characters
+    char vehicleType[10]; 
 
     for (int i = 0; i < numberOfVehicles; i++) {
         printf("Enter vehicle type (Car/Truck/Bike): ");
