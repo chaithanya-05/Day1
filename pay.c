@@ -11,7 +11,7 @@ void processPayment(int method) {
     int bankChoice;
 
     switch (method) {
-        case 1: // Credit/Debit Card
+        case 1: 
             printf("Enter your 16-digit card number: ");
             scanf("%s", cardNumber);
             if (strlen(cardNumber) == 16) {
@@ -21,7 +21,7 @@ void processPayment(int method) {
             }
             break;
 
-        case 2: // UPI
+        case 2: 
             printf("Enter your UPI ID: ");
             scanf("%s", upiID);
             // Simple validation for UPI ID (you can enhance this)
@@ -32,7 +32,7 @@ void processPayment(int method) {
             }
             break;
 
-        case 3: // Net Banking
+        case 3: 
             printf("Select your bank:\n");
             printf("1. SBI\n");
             printf("2. HDFC\n");
